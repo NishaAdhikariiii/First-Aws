@@ -1,0 +1,29 @@
+<html>
+<head>
+
+</head>
+<body style="background-color: #b4d2e7; color: black;">
+<div align="center" style="margin-top: 60px;">
+<h2>Mount Assiniboine : Canada</h2>
+<img src="mount.jpg" width="50%">
+<h4>Go where you feel most alive<br>
+where the air is thin, the path is wild, and the world feels endless</h4>
+<a href="Register.html"></a>
+<button onclick="askLogin()">Lets Go</button>
+
+<script>
+    function askLogin()
+ {
+      const wantsToLogin = confirm("Do you want to Register?");
+      if (wantsToLogin) 
+{
+        window.location.href = "Register.html"; // link to your login page
+      } else 
+{
+        alert("Maybe next time!");
+      }
+    }
+  </script>
+</div>
+</body>
+</html>
